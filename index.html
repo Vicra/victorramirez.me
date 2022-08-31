@@ -37,7 +37,6 @@
                 <h1 class="name">Victor Ramirez</h1>
                 <h2 class="desc">Software Engineer | Backend Developer </h2>   
                 <ul class="social list-inline">
-                    <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                     <li><a href="https://www.linkedin.com/in/victor-ricardo-r-06272810b"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/Vicra"><i class="fa fa-github-alt"></i></a></li>
                     <li><a href="https://www.upwork.com/freelancers/~01a7d5f2ce8156186b?viewMode=1"><i class="fa fa-briefcase"></i></a></li>
@@ -59,7 +58,7 @@
                         <h2 class="heading">About Me</h2>
                         <div class="content">
                             <p>
-                                I am a Software Engineer based in Honduras. I work have been working as a web developer since 2016. I love working with backend technologies, and will be excited to help you with your web projects.
+                                I am a Software Engineer based in Honduras. I've been working as a web developer since 2016. I love working with backend technologies, and will be excited to help you with your web projects.
                             </p>
                             <p>
                                 Currently I am working as a Implementation Backend Lead for SPUD.ca Sustainable Produce Urban Delivery with technologies like Express.js, Azure Functions, MySQL, Jest. I love travelling and getting to know people from different countries. I have a passion for languages, I speak native spanish, fluent english, basic french and portuguese. 
@@ -74,8 +73,8 @@
                         <div class="content">    
                                                
                             <div class="item featured text-center">
-                                <h3 class="title"><a href="https://riopiedras.store/" target="_blank">KickStarter - Tiendita del Rio App</a></h3>
-                                <p class="summary">A web app that will help you get your supermarket stuff to your place.</p>
+                                <h3 class="title"><a href="" target="_blank">eCommerce Site</a></h3>
+                                <p class="summary">A web app that will allows you to present a catalog of your products.</p>
                                 <div class="featured-image">
                                     <a href="https://riopiedras.store/" target="_blank">
                                     <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
@@ -87,7 +86,7 @@
                                     
                                 <div class="desc text-left">                  
                                     <p>Due to the coronavirus pandemic, we were forced to stay at our homes for a long time, There were many restrictions so that people could run their errands and stock up on food, motorcycle deliveries were allowed and this was the oportunity to change the bussiness</p>
-                                    <p>Tiendita del Rio provides a wide list of products available on a supermarket and delivers them to your place, Helps you forget about standing in long waiting lines and prevent from contracting the virus.</p>
+                                    <p>This application started as a family site were we could sell groceries and then evolved to a general eCommerce site were people can make orders.</p>
                                 </div> 
                                 <a class="btn btn-cta-secondary" href="https://paypal.me/VictorRamirezPerdomo" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>                 
                             </div>
@@ -341,14 +340,22 @@
     </div>
     
     <!-- ******FOOTER****** --> 
+    
     <footer class="footer">
         <div class="container text-center">
             <small class="copyright"><br><strong>Anything I can imagine, I can one day make real.</strong><br>
                 <i>When I look at the world, all I see is possibility and potential. I see the way it can be. The way it could be. The way it will be. And I work hard every day to make that vision a reality. To turn everything that's only been imagined into the things that make people sit up and take notice. It takes creativity. It takes commitment. It takes preparation. And it takes the beleief that one day, I'll make it happen. I'm a big dreamer, and I'm ready for something more.</i><br>
                 - <strong>Jules Verne</strong><br><br>
-                </small>
+            </small>
+
+            <footer>
+                ©<span id="year"></span> Guacamayan Software
+            </footer>
         </div>
     </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>   
  
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
